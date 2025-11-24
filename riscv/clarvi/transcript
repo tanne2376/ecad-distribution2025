@@ -1,0 +1,45 @@
+# do clarvi_test.do ../assembly/mem.txt TRACE
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:28:31 on Nov 24,2025
+# vlog clarvi.sv "+define+TRACE" 
+# -- Compiling package clarvi_sv_unit
+# -- Compiling module clarvi
+# 
+# Top level modules:
+# 	clarvi
+# End time: 16:28:31 on Nov 24,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:28:31 on Nov 24,2025
+# vlog clarvi_avalon.sv 
+# -- Compiling module clarvi_avalon
+# 
+# Top level modules:
+# 	clarvi_avalon
+# End time: 16:28:31 on Nov 24,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:28:31 on Nov 24,2025
+# vlog bram.sv 
+# -- Compiling module dual_port_bram
+# ** Warning: bram.sv(43): (vlog-13314) Defaulting port 'avs_a_writedata' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: bram.sv(50): (vlog-13314) Defaulting port 'avs_b_writedata' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# 
+# Top level modules:
+# 	dual_port_bram
+# End time: 16:28:32 on Nov 24,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 2
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:28:32 on Nov 24,2025
+# vlog clarvi_sim.sv 
+# -- Compiling module clarvi_sim
+# ** Error: clarvi_sim.sv(30): (vlog-2163) Macro `RISCV_BINARY is undefined.
+# ** Error: (vlog-13069) clarvi_sim.sv(30): near ")": syntax error, unexpected ')'.
+# End time: 16:28:32 on Nov 24,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: /local/ecad/intelFPGA/20.1.1lite/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./clarvi_test.do line 36
+# /local/ecad/intelFPGA/20.1.1lite/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog clarvi_sim.sv"

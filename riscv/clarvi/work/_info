@@ -1,0 +1,112 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/bt439/ecad-distribution2025/riscv/clarvi
+vclarvi
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+DXx4 work 14 clarvi_sv_unit 0 22 Qb2YQ1N2fG3chjgR9<H7_3
+Z2 !s110 1764001711
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 LDcfK6e>fUiaH_]1iKEM[1
+I]YAT:b5XR4W7]ge6<0dHH2
+!s105 clarvi_sv_unit
+S1
+R0
+Z4 w1763476886
+Z5 8clarvi.sv
+Z6 Fclarvi.sv
+Fclarvi_debug.sv
+!i122 5
+L0 74 900
+Z7 OV;L;2020.1;71
+31
+Z8 !s108 1764001711.000000
+Z9 !s107 clarvi_debug.sv|riscv.svh|clarvi.sv|
+Z10 !s90 clarvi.sv|+define+TRACE|
+!i113 1
+Z11 !s92 +define+TRACE
+Z12 tCvgOpt 0
+vclarvi_avalon
+R1
+R2
+!i10b 1
+!s100 JGXnHP8[`3_HfS?2`gYW70
+Z13 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I6R@Z_oF@SFLLeDijM3d232
+R3
+S1
+R0
+R4
+8clarvi_avalon.sv
+Fclarvi_avalon.sv
+!i122 6
+L0 31 65
+R7
+r1
+!s85 0
+31
+R8
+!s107 clarvi_avalon.sv|
+!s90 clarvi_avalon.sv|
+!i113 1
+R12
+Xclarvi_sv_unit
+R1
+R2
+VQb2YQ1N2fG3chjgR9<H7_3
+r1
+!s85 0
+!i10b 1
+!s100 ?=K:m`1hB>mlIg5W;Kd>V1
+IQb2YQ1N2fG3chjgR9<H7_3
+!i103 1
+S1
+R0
+R4
+R5
+R6
+Friscv.svh
+!i122 5
+L0 39 0
+R7
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vdual_port_bram
+R1
+!s110 1764001712
+!i10b 1
+!s100 QT>Dl>cBiQ1Sz^T8UX=Kg2
+R13
+In``_fFOWe`i_6FmL71ZIM3
+R3
+S1
+R0
+R4
+8bram.sv
+Fbram.sv
+!i122 7
+L0 29 61
+R7
+r1
+!s85 0
+31
+R8
+!s107 bram.sv|
+!s90 bram.sv|
+!i113 1
+R12
